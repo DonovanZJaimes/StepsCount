@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D750E932D83738000B242B3 /* StepsCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D750E922D83738000B242B3 /* StepsCountApp.swift */; };
+		5D750E952D83738000B242B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D750E942D83738000B242B3 /* ContentView.swift */; };
+		5D750E972D83738200B242B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D750E962D83738200B242B3 /* Assets.xcassets */; };
+		5D750E9A2D83738200B242B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D750E992D83738200B242B3 /* Preview Assets.xcassets */; };
+		5D77323D2DA21D450012B6DD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77323C2DA21D450012B6DD /* DashboardView.swift */; };
+		5D77323F2DA223F00012B6DD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77323E2DA223F00012B6DD /* DashboardView.swift */; };
+		5DB804E52D8CA55B00C1BB73 /* StepsCountWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB804E42D8CA55B00C1BB73 /* StepsCountWatchApp.swift */; };
+		5DB804E72D8CA55B00C1BB73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB804E62D8CA55B00C1BB73 /* ContentView.swift */; };
+		5DB804E92D8CA55D00C1BB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB804E82D8CA55D00C1BB73 /* Assets.xcassets */; };
+		5DB804EC2D8CA55D00C1BB73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB804EB2D8CA55D00C1BB73 /* Preview Assets.xcassets */; };
+		5DB804EF2D8CA55D00C1BB73 /* StepsCountWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5DB804E22D8CA55A00C1BB73 /* StepsCountWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5DB804F72D8CAC1A00C1BB73 /* StepsModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB804F62D8CAC1A00C1BB73 /* StepsModule */; };
+		5DB804F92D8CAD5D00C1BB73 /* StepsModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB804F82D8CAD5D00C1BB73 /* StepsModule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DB804ED2D8CA55D00C1BB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D750E872D83738000B242B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB804E12D8CA55A00C1BB73;
+			remoteInfo = "StepsCountWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DB804F32D8CA55D00C1BB73 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5DB804EF2D8CA55D00C1BB73 /* StepsCountWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D750E8F2D83738000B242B3 /* StepsCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepsCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D750E922D83738000B242B3 /* StepsCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCountApp.swift; sourceTree = "<group>"; };
+		5D750E942D83738000B242B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D750E962D83738200B242B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D750E992D83738200B242B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D750EA02D83743300B242B3 /* StepsCount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepsCount.entitlements; sourceTree = "<group>"; };
+		5D77323C2DA21D450012B6DD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5D77323E2DA223F00012B6DD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5DB804E22D8CA55A00C1BB73 /* StepsCountWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StepsCountWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB804E42D8CA55B00C1BB73 /* StepsCountWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCountWatchApp.swift; sourceTree = "<group>"; };
+		5DB804E62D8CA55B00C1BB73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DB804E82D8CA55D00C1BB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB804EB2D8CA55D00C1BB73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DB804F42D8CA77600C1BB73 /* StepsModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StepsModule; path = ../../StepsModule; sourceTree = "<group>"; };
+		5DB804FA2D8CAD8900C1BB73 /* StepsCountWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "StepsCountWatch Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D750E8C2D83738000B242B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB804F72D8CAC1A00C1BB73 /* StepsModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB804DF2D8CA55A00C1BB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB804F92D8CAD5D00C1BB73 /* StepsModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D750E862D83738000B242B3 = {
+			isa = PBXGroup;
+			children = (
+				5D750E912D83738000B242B3 /* StepsCount */,
+				5DB804E32D8CA55B00C1BB73 /* StepsCountWatch Watch App */,
+				5D750E902D83738000B242B3 /* Products */,
+				5DB804F52D8CAC1A00C1BB73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D750E902D83738000B242B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D750E8F2D83738000B242B3 /* StepsCount.app */,
+				5DB804E22D8CA55A00C1BB73 /* StepsCountWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D750E912D83738000B242B3 /* StepsCount */ = {
+			isa = PBXGroup;
+			children = (
+				5DB804F42D8CA77600C1BB73 /* StepsModule */,
+				5D750EA02D83743300B242B3 /* StepsCount.entitlements */,
+				5D750E922D83738000B242B3 /* StepsCountApp.swift */,
+				5D750E942D83738000B242B3 /* ContentView.swift */,
+				5D77323C2DA21D450012B6DD /* DashboardView.swift */,
+				5D750E962D83738200B242B3 /* Assets.xcassets */,
+				5D750E982D83738200B242B3 /* Preview Content */,
+			);
+			path = StepsCount;
+			sourceTree = "<group>";
+		};
+		5D750E982D83738200B242B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D750E992D83738200B242B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DB804E32D8CA55B00C1BB73 /* StepsCountWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5DB804FA2D8CAD8900C1BB73 /* StepsCountWatch Watch App.entitlements */,
+				5DB804E42D8CA55B00C1BB73 /* StepsCountWatchApp.swift */,
+				5DB804E62D8CA55B00C1BB73 /* ContentView.swift */,
+				5D77323E2DA223F00012B6DD /* DashboardView.swift */,
+				5DB804E82D8CA55D00C1BB73 /* Assets.xcassets */,
+				5DB804EA2D8CA55D00C1BB73 /* Preview Content */,
+			);
+			path = "StepsCountWatch Watch App";
+			sourceTree = "<group>";
+		};
+		5DB804EA2D8CA55D00C1BB73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DB804EB2D8CA55D00C1BB73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DB804F52D8CAC1A00C1BB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D750E8E2D83738000B242B3 /* StepsCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D750E9D2D83738200B242B3 /* Build configuration list for PBXNativeTarget "StepsCount" */;
+			buildPhases = (
+				5D750E8B2D83738000B242B3 /* Sources */,
+				5D750E8C2D83738000B242B3 /* Frameworks */,
+				5D750E8D2D83738000B242B3 /* Resources */,
+				5DB804F32D8CA55D00C1BB73 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB804EE2D8CA55D00C1BB73 /* PBXTargetDependency */,
+			);
+			name = StepsCount;
+			packageProductDependencies = (
+				5DB804F62D8CAC1A00C1BB73 /* StepsModule */,
+			);
+			productName = StepsCount;
+			productReference = 5D750E8F2D83738000B242B3 /* StepsCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DB804E12D8CA55A00C1BB73 /* StepsCountWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB804F02D8CA55D00C1BB73 /* Build configuration list for PBXNativeTarget "StepsCountWatch Watch App" */;
+			buildPhases = (
+				5DB804DE2D8CA55A00C1BB73 /* Sources */,
+				5DB804DF2D8CA55A00C1BB73 /* Frameworks */,
+				5DB804E02D8CA55A00C1BB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StepsCountWatch Watch App";
+			packageProductDependencies = (
+				5DB804F82D8CAD5D00C1BB73 /* StepsModule */,
+			);
+			productName = "StepsCountWatch Watch App";
+			productReference = 5DB804E22D8CA55A00C1BB73 /* StepsCountWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D750E872D83738000B242B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5D750E8E2D83738000B242B3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5DB804E12D8CA55A00C1BB73 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5D750E8A2D83738000B242B3 /* Build configuration list for PBXProject "StepsCount" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D750E862D83738000B242B3;
+			productRefGroup = 5D750E902D83738000B242B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D750E8E2D83738000B242B3 /* StepsCount */,
+				5DB804E12D8CA55A00C1BB73 /* StepsCountWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D750E8D2D83738000B242B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D750E9A2D83738200B242B3 /* Preview Assets.xcassets in Resources */,
+				5D750E972D83738200B242B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB804E02D8CA55A00C1BB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB804EC2D8CA55D00C1BB73 /* Preview Assets.xcassets in Resources */,
+				5DB804E92D8CA55D00C1BB73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D750E8B2D83738000B242B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D750E952D83738000B242B3 /* ContentView.swift in Sources */,
+				5D77323D2DA21D450012B6DD /* DashboardView.swift in Sources */,
+				5D750E932D83738000B242B3 /* StepsCountApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB804DE2D8CA55A00C1BB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB804E72D8CA55B00C1BB73 /* ContentView.swift in Sources */,
+				5D77323F2DA223F00012B6DD /* DashboardView.swift in Sources */,
+				5DB804E52D8CA55B00C1BB73 /* StepsCountWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB804EE2D8CA55D00C1BB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB804E12D8CA55A00C1BB73 /* StepsCountWatch Watch App */;
+			targetProxy = 5DB804ED2D8CA55D00C1BB73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D750E9B2D83738200B242B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D750E9C2D83738200B242B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D750E9E2D83738200B242B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepsCount/StepsCount.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepsCount/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Access permission to use Health Kit information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Access permission to use Health Kit information";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonovanZJA.StepsCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D750E9F2D83738200B242B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepsCount/StepsCount.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepsCount/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Access permission to use Health Kit information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Access permission to use Health Kit information";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonovanZJA.StepsCount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DB804F12D8CA55D00C1BB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StepsCountWatch Watch App/StepsCountWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepsCountWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StepsCountWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Dejame usarlo";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.DonovanZJA.StepsCount;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonovanZJA.StepsCount.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		5DB804F22D8CA55D00C1BB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StepsCountWatch Watch App/StepsCountWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepsCountWatch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StepsCountWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Dejame usarlo";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.DonovanZJA.StepsCount;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonovanZJA.StepsCount.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D750E8A2D83738000B242B3 /* Build configuration list for PBXProject "StepsCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D750E9B2D83738200B242B3 /* Debug */,
+				5D750E9C2D83738200B242B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D750E9D2D83738200B242B3 /* Build configuration list for PBXNativeTarget "StepsCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D750E9E2D83738200B242B3 /* Debug */,
+				5D750E9F2D83738200B242B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB804F02D8CA55D00C1BB73 /* Build configuration list for PBXNativeTarget "StepsCountWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB804F12D8CA55D00C1BB73 /* Debug */,
+				5DB804F22D8CA55D00C1BB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DB804F62D8CAC1A00C1BB73 /* StepsModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StepsModule;
+		};
+		5DB804F82D8CAD5D00C1BB73 /* StepsModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StepsModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D750E872D83738000B242B3 /* Project object */;
+}
